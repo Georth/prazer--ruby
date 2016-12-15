@@ -26,7 +26,7 @@ O método sub altera apenas a primeira ocorrência encontrada para o padrão inf
 Agora, já o método gsub faz a substituição em todas as ocorrências encontradas:
 
 	str = "prazer ruby e ruby on rails"
-	str.sub(/ruby/, "xxx") #"prazer xxx e xxx on rails"
+	str.gsub(/ruby/, "xxx") #"prazer xxx e xxx on rails"
 
 ## Pesquisando Strings
 
